@@ -45,6 +45,8 @@ int _putchar(char c);
 int _printf(const char *format, ...);
 int print_percent(va_list val);
 int (*get_func(char x))(va_list);
+int print_d(va_list args);
+int print_i(va_list args);
 
 /**
  * struct code_format - Struct format
