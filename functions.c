@@ -19,7 +19,7 @@ int print_c(va_list args)
  * @args: string arguments
  * Return: number of characters printed
  */
-int print_s - (va_list args)
+int print_s(va_list args)
 {
 	int i, count = 0;
 	char *str;
